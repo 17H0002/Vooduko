@@ -1,0 +1,31 @@
+C:\Users\hagus\Documents\Visual Studio 2017\Projects\Project 102\Project 102\bin\Debug\Project 102.exe.config
+C:\Users\hagus\Documents\Visual Studio 2017\Projects\Project 102\Project 102\bin\Debug\Project 102.exe
+C:\Users\hagus\Documents\Visual Studio 2017\Projects\Project 102\Project 102\bin\Debug\Project 102.pdb
+C:\Users\hagus\Documents\Visual Studio 2017\Projects\Project 102\Project 102\obj\Debug\Project 102.csprojResolveAssemblyReference.cache
+C:\Users\hagus\Documents\Visual Studio 2017\Projects\Project 102\Project 102\obj\Debug\MainWindow.g.cs
+C:\Users\hagus\Documents\Visual Studio 2017\Projects\Project 102\Project 102\obj\Debug\App.g.cs
+C:\Users\hagus\Documents\Visual Studio 2017\Projects\Project 102\Project 102\obj\Debug\Project 102_MarkupCompile.cache
+C:\Users\hagus\Documents\Visual Studio 2017\Projects\Project 102\Project 102\obj\Debug\Project 102_MarkupCompile.lref
+C:\Users\hagus\Documents\Visual Studio 2017\Projects\Project 102\Project 102\obj\Debug\MainWindow.baml
+C:\Users\hagus\Documents\Visual Studio 2017\Projects\Project 102\Project 102\obj\Debug\Project 102.g.resources
+C:\Users\hagus\Documents\Visual Studio 2017\Projects\Project 102\Project 102\obj\Debug\Project_102.Properties.Resources.resources
+C:\Users\hagus\Documents\Visual Studio 2017\Projects\Project 102\Project 102\obj\Debug\Project 102.csproj.GenerateResource.Cache
+C:\Users\hagus\Documents\Visual Studio 2017\Projects\Project 102\Project 102\obj\Debug\Project 102.exe
+C:\Users\hagus\Documents\Visual Studio 2017\Projects\Project 102\Project 102\obj\Debug\Project 102.pdb
+C:\Users\hagus\Desktop\Prac4 Part A B C\Project 102\Project 102\bin\Debug\Project 102.exe.config
+C:\Users\hagus\Desktop\Prac4 Part A B C\Project 102\Project 102\bin\Debug\Project 102.exe
+C:\Users\hagus\Desktop\Prac4 Part A B C\Project 102\Project 102\bin\Debug\Project 102.pdb
+C:\Users\hagus\Desktop\Prac4 Part A B C\Project 102\Project 102\obj\Debug\Project 102.csprojResolveAssemblyReference.cache
+C:\Users\hagus\Desktop\Prac4 Part A B C\Project 102\Project 102\obj\Debug\MainWindow.g.cs
+C:\Users\hagus\Desktop\Prac4 Part A B C\Project 102\Project 102\obj\Debug\App.g.cs
+C:\Users\hagus\Desktop\Prac4 Part A B C\Project 102\Project 102\obj\Debug\Project 102_MarkupCompile.cache
+C:\Users\hagus\Desktop\Prac4 Part A B C\Project 102\Project 102\obj\Debug\Project 102_MarkupCompile.lref
+C:\Users\hagus\Desktop\Prac4 Part A B C\Project 102\Project 102\obj\Debug\MainWindow.baml
+C:\Users\hagus\Desktop\Prac4 Part A B C\Project 102\Project 102\obj\Debug\Project 102.g.resources
+C:\Users\hagus\Desktop\Prac4 Part A B C\Project 102\Project 102\obj\Debug\Project_102.Properties.Resources.resources
+C:\Users\hagus\Desktop\Prac4 Part A B C\Project 102\Project 102\obj\Debug\Project 102.csproj.GenerateResource.Cache
+C:\Users\hagus\Desktop\Prac4 Part A B C\Project 102\Project 102\obj\Debug\Project 102.exe
+C:\Users\hagus\Desktop\Prac4 Part A B C\Project 102\Project 102\obj\Debug\Project 102.pdb
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Voodoku\Sudoku Console V1\Project 102\Project 102\bin\Debug\Project 102.exe.config
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Voodoku\Sudoku Console V1\Project 102\Project 102\obj\Debug\Project 102.exe
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Voodoku\Sudoku Console V1\Project 102\Project 102\obj\Debug\Project 102.pdb

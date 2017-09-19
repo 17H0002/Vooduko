@@ -1,0 +1,21 @@
+﻿<Window x:Class="Project_102.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project_102"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="345.87" Width="525">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="236" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="497" IsEnabled="False" Text="No GUI board at the moment, console should have popped up somewhere. Input the move below and it should reflect on the console.&#xD;&#xA;&#xD;&#xA;The &quot;Computer&quot; plays first, generating a random move and position to play. It's move is then run through the different checks for a legal move. If it passes them all, an updated board is printed reflecting the move.&#xD;&#xA;&#xD;&#xA;&quot;Player 1&quot; plays second (ironic indeed), inputting a move in the blocks below. Like the computer, if the player's move is legal an updated board reflecting the move is printed. (NOTE: The computer only plays after a move for Player 1 has been played, that's why the console will first appear blank.)&#xD;&#xA;&#xD;&#xA;If either player plays an invalid move, the game terminates, declaring the other player the winner. &#xD;&#xA;&#xD;&#xA;Information about the game is printed both to the console, and the block right of the &quot;Play Move&quot; button.&#xD;&#xA;&#xD;&#xA;(NOTE: Currently the game doesn't print illegal moves, so it's important to see what the console says. eg: Both player's moves won't print if the Computer's move is illegal, and this will only reflect in the console below.)&#xD;&#xA;" FontSize="10"/>
+        <Label x:Name="ColLab" Content="Col" HorizontalAlignment="Left" Height="25" Margin="12,246,0,0" VerticalAlignment="Top" Width="37"/>
+        <Label x:Name="RowLab" Content="Row" HorizontalAlignment="Left" Height="25" Margin="54,246,0,0" VerticalAlignment="Top" Width="37"/>
+        <TextBox x:Name="ColText" HorizontalAlignment="Left" Height="33" Margin="12,272,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="37"/>
+        <TextBox x:Name="RowText" HorizontalAlignment="Left" Height="33" Margin="54,272,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="37"/>
+        <Button x:Name="PlayMoveBut" Content="Play Move" HorizontalAlignment="Left" Height="33" Margin="177,272,0,0" VerticalAlignment="Top" Width="75" Click="PlayMoveBut_Click"/>
+        <TextBox x:Name="Term" HorizontalAlignment="Left" Height="50" Margin="257,255,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" IsEnabled="False"/>
+        <Label x:Name="MoveLab" Content="Move" HorizontalAlignment="Left" Height="25" Margin="100,246,0,0" VerticalAlignment="Top" Width="46"/>
+        <TextBox x:Name="MoveText" HorizontalAlignment="Left" Height="33" Margin="100,272,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="37"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+C:\Users\Andrew Nel\Desktop\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe.config
+C:\Users\Andrew Nel\Desktop\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe
+C:\Users\Andrew Nel\Desktop\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.pdb
+C:\Users\Andrew Nel\Desktop\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csprojResolveAssemblyReference.cache
+C:\Users\Andrew Nel\Desktop\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.g.cs
+C:\Users\Andrew Nel\Desktop\SudukoGUI\SudukoGUI\obj\Debug\App.g.cs
+C:\Users\Andrew Nel\Desktop\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.cache
+C:\Users\Andrew Nel\Desktop\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.lref
+C:\Users\Andrew Nel\Desktop\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.baml
+C:\Users\Andrew Nel\Desktop\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.g.resources
+C:\Users\Andrew Nel\Desktop\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.Properties.Resources.resources
+C:\Users\Andrew Nel\Desktop\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csproj.GenerateResource.Cache
+C:\Users\Andrew Nel\Desktop\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.exe
+C:\Users\Andrew Nel\Desktop\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.pdb
