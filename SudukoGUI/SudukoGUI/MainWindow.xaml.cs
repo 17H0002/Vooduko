@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -87,43 +86,50 @@ namespace SudukoGUI
         private void InitialiseBoard()
         {
             //board.setBoard();
-            board.PlayerBoard = new char[9, 9]
+            board.PlayerBoard = new int[9, 9]
             {
-               { '4', ' ', ' ', ' ', '1', ' ', ' ', ' ' , '5'},
-               { ' ', ' ', ' ', '9', ' ', '2', ' ', ' ' , ' '},
-               { ' ', ' ', '6', ' ', '7', ' ', '3', ' ' , ' '},
-               { ' ', '5', ' ', '3', ' ', '4', ' ', '1' , ' '},
-               { '1', ' ', '8', ' ', ' ', ' ', '6', ' ' , '4'},
-               { ' ', '9', ' ', '7', ' ', '1', ' ', '8' , ' '},
-               { ' ', ' ', '5', ' ', '4', ' ', '1', ' ' , ' '},
-               { ' ', ' ', ' ', '1', ' ', '9', '4', ' ' , ' '},
-               { '2', ' ', ' ', ' ',  '3', ' ', ' ', ' ', '8'}
+               { 4, 0, 0, 0, 1, 0, 0, 0 , 5},
+               { 0, 0, 0, 9, 0, 2, 0, 0 , 0},
+               { 0, 0, 6, 0, 7, 0, 3, 0 , 0},
+               { 0, 5, 0, 3, 0, 4, 0, 1 , 0},
+               { 1, 0, 8, 0, 0, 0, 6, 0 , 4},
+               { 0, 9, 0, 7, 0, 1, 0, 8 , 0},
+               { 0, 0, 5, 0, 4, 0, 1, 0 , 0},
+               { 0, 0, 0, 1, 0, 9, 4, 0 , 0},
+               { 2, 0, 0, 0,  3, 0, 0, 0, 8}
             };
 
-            //board.PlayerBoard = new char[16, 16]
+            //board.PlayerBoard = new int[16, 16]
             //{
-            //   { '4', ' ', ' ', ' ', '1', ' ', ' ', ' ' , '5', ' ', ' ', '1', ' ', ' ', ' ' , '5'},
-            //   { '4', ' ', ' ', ' ', '1', ' ', ' ', ' ' , '5', ' ', ' ', '1', ' ', ' ', ' ' , '5'},
-            //   { '4', ' ', ' ', ' ', '1', ' ', ' ', ' ' , '5', ' ', ' ', '1', ' ', ' ', ' ' , '5'},
-            //   { '4', ' ', ' ', ' ', '1', ' ', ' ', ' ' , '5', ' ', ' ', '1', ' ', ' ', ' ' , '5'},
-            //   { '4', ' ', ' ', ' ', '1', ' ', ' ', ' ' , '5', ' ', ' ', '1', ' ', ' ', ' ' , '5'},
-            //   { '4', ' ', ' ', ' ', '1', ' ', ' ', ' ' , '5', ' ', ' ', '1', ' ', ' ', ' ' , '5'},
-            //   { '4', ' ', ' ', ' ', '1', ' ', ' ', ' ' , '5', ' ', ' ', '1', ' ', ' ', ' ' , '5'},
-            //   { '4', ' ', ' ', ' ', '1', ' ', ' ', ' ' , '5', ' ', ' ', '1', ' ', ' ', ' ' , '5'},
-            //   { '4', ' ', ' ', ' ', '1', ' ', ' ', ' ' , '5', ' ', ' ', '1', ' ', ' ', ' ' , '5'},
-            //   { '4', ' ', ' ', ' ', '1', ' ', ' ', ' ' , '5', ' ', ' ', '1', ' ', ' ', ' ' , '5'},
-            //   { '4', ' ', ' ', ' ', '1', ' ', ' ', ' ' , '5', ' ', ' ', '1', ' ', ' ', ' ' , '5'},
-            //   { '4', ' ', ' ', ' ', '1', ' ', ' ', ' ' , '5', ' ', ' ', '1', ' ', ' ', ' ' , '5'},
-            //   { '4', ' ', ' ', ' ', '1', ' ', ' ', ' ' , '5', ' ', ' ', '1', ' ', ' ', ' ' , '5'},
-            //   { '4', ' ', ' ', ' ', '1', ' ', ' ', ' ' , '5', ' ', ' ', '1', ' ', ' ', ' ' , '5'},
-            //   { '4', ' ', ' ', ' ', '1', ' ', ' ', ' ' , '5', ' ', ' ', '1', ' ', ' ', ' ' , '5'},
-            //   { '4', ' ', ' ', ' ', '1', ' ', ' ', ' ' , '5', ' ', ' ', '1', ' ', ' ', ' ' , '5'}
+            //   { 4, 0, 0, 0, 1, 0, 0, 0 , 5, 0, 0, 1, 0, 0, 0 , 5},
+            //   { 4, 0, 0, 0, 1, 0, 0, 0 , 5, 0, 0, 1, 0, 0, 0 , 5},
+            //   { 4, 0, 0, 0, 1, 0, 0, 0 , 5, 0, 0, 1, 0, 0, 0 , 5},
+            //   { 4, 0, 0, 0, 1, 0, 0, 0 , 5, 0, 0, 1, 0, 0, 0 , 5},
+            //   { 4, 0, 0, 0, 1, 0, 0, 0 , 5, 0, 0, 1, 0, 0, 0 , 5},
+            //   { 4, 0, 0, 0, 1, 0, 0, 0 , 5, 0, 0, 1, 0, 0, 0 , 5},
+            //   { 4, 0, 0, 0, 1, 0, 0, 0 , 5, 0, 0, 1, 0, 0, 0 , 5},
+            //   { 4, 0, 0, 0, 1, 0, 0, 0 , 5, 0, 0, 1, 0, 0, 0 , 5},
+            //   { 4, 0, 0, 0, 1, 0, 0, 0 , 5, 0, 0, 1, 0, 0, 0 , 5},
+            //   { 4, 0, 0, 0, 1, 0, 0, 0 , 5, 0, 0, 1, 0, 0, 0 , 5},
+            //   { 4, 0, 0, 0, 1, 0, 0, 0 , 5, 0, 0, 1, 0, 0, 0 , 5},
+            //   { 4, 0, 0, 0, 1, 0, 0, 0 , 5, 0, 0, 1, 0, 0, 0 , 5},
+            //   { 4, 0, 0, 0, 1, 0, 0, 0 , 5, 0, 0, 1, 0, 0, 0 , 5},
+            //   { 4, 0, 0, 0, 1, 0, 0, 0 , 5, 0, 0, 1, 0, 0, 0 , 5},
+            //   { 4, 0, 0, 0, 1, 0, 0, 0 , 5, 0, 0, 1, 0, 0, 0 , 5},
+            //   { 4, 0, 0, 0, 1, 0, 0, 0 , 5, 0, 0, 1, 0, 0, 0 , 5}
             //};
             int row = 0; int col = 0;
             for (int i = 0; i < buttons.Length; i++)
             {
-                buttons[i].Content = $"  {board.PlayerBoard[row, col]}  ";
-                if (board.PlayerBoard[row, col] != ' ')
+                if (board.PlayerBoard[row,col] != 0)
+                {
+                    buttons[i].Content = $"  {board.PlayerBoard[row, col]}  ";
+                }
+                else
+                {
+                    buttons[i].Content = $"     ";
+                }
+                if (board.PlayerBoard[row, col] != 0)
                     buttons[i].IsEnabled = false;
                 if (col == board.BoardSize - 1)
                 {
@@ -231,11 +237,6 @@ namespace SudukoGUI
             currentPlayer = player1;
         }
 
-        void updateGame(Button b)
-        {
-            turn(b);
-        }
-
         private void initGame()
         {
             txtOutput.Content = "Enter the details:";
@@ -304,17 +305,205 @@ namespace SudukoGUI
             w.Close();
         }
 
-        private void turn(Button b)
+        private void updateGame(Button b)
         {
             int row = 0; int col = 0;
             for (int i = 1; i <= board.BoardSize * board.BoardSize; i++)
             {
                 if (b.Name == ("btn" + (i).ToString()))
                 {
-                    board.PlayerBoard[row, col] = Convert.ToString(slider.Value)[0];
-                    b.Content = Convert.ToString(slider.Value)[0];
-                    break;
+                    int CheckWon = 0;
+
+                    for (int ii = 0; ii < board.BoardSize; ii++)
+                    {
+                        for (int y = 0; y < board.BoardSize; y++)
+                        {
+                            if (board.PlayerBoard[ii, y] == 0)
+                            {
+                                CheckWon++;
+                            }
+                        }
+                    }
+                    if (CheckWon == 0)
+                    {
+                        Console.WriteLine("Winner Winner Chicken Dinner!");
+                    }
+                    else
+                    {
+
+                        int gameon = 1;
+                        int P1moved = 0;
+                        string player = "Player 1";
+
+                        // Basic game loop control
+                        if (gameon == 1 && P1moved == 0)
+                        {
+                            int valid = 0;
+                            int error = 0;
+
+                            //Human move
+                            int move = Convert.ToInt32(slider.Value);
+                            if (row < 0 || row > 8 || row < 0 || row > 8)
+                            {
+                                valid = 0;
+                                gameon = 0;
+                                error = 1;
+
+
+                            }
+                            if ((move > 9 || move < 1) && valid == 0)
+                            {
+                                valid = 0;
+                                gameon = 0;
+                                error = 2;
+
+                            }
+                            if (board.PlayerBoard[row, col] == 0 && valid == 0)
+                            {
+                                valid = 1;
+                                board.PlayerBoard[row, col] = move;
+                                P1moved = 1;
+
+                            }
+                            if ((board.PlayerBoard[row, col] != 0) && valid == 0)
+                            {
+                                valid = 0;
+                                gameon = 0;
+                                error = 3;
+
+                            }
+
+                            // Check 2 - Duplicate in the row?
+
+                            if (valid == 1)
+                            {
+                                int dupcnt = 0;
+
+                                for (int tt = 0; tt < 9; tt++)
+                                {
+                                    if (board.PlayerBoard[row, tt] == move)
+                                    {
+                                        dupcnt = dupcnt + 1;
+
+                                    }
+                                }
+                                if (dupcnt == 2)
+                                {
+
+                                    board.PlayerBoard[row, col] = 0;
+                                    error = 4;
+                                    valid = 0;
+                                    gameon = 0;
+                                }
+                            }
+
+                            // Check 3 - Duplicate in the column?
+
+                            if (valid == 1)
+                            {
+                                int dupcnt = 0;
+
+                                for (int tt = 0; tt < 9; tt++)
+                                {
+                                    if (board.PlayerBoard[tt, col] == move)
+                                    {
+                                        dupcnt = dupcnt + 1;
+                                    }
+                                }
+                                if (dupcnt == 2)
+                                {
+                                    error = 5;
+                                    board.PlayerBoard[row, col] = 0;
+                                    valid = 0;
+                                    gameon = 0;
+                                }
+                            }
+
+                            // Check 4 - Duplicate in the box
+
+                            if (valid == 1)
+                            {
+                                int RBound = (row / board.BoardSize) * board.BoardSize;
+                                int CBound = (col / board.BoardSize) * board.BoardSize;
+                                int[] bline;
+                                int ic = 0;
+                                int bi = board.BoardSize * board.BoardSize;
+                                bline = new int[bi];
+
+                                for (int rc = 0; rc < board.BoardSize; rc++)
+                                {
+                                    for (int cc = 0; cc < board.BoardSize; cc++)
+                                    {
+                                        bline[ic] = board.PlayerBoard[RBound, CBound];
+                                        ic = ic + 1;
+                                        CBound = CBound + 1;
+
+                                    }
+                                    RBound = RBound + 1;
+                                    CBound = (col / board.BoardSize) * board.BoardSize;
+                                }
+                                int dupcnt = 0;
+
+                                for (int tt = 0; tt < bi; tt++)
+                                {
+                                    if (bline[tt] == move)
+                                    {
+                                        dupcnt = dupcnt + 1;
+                                    }
+                                }
+                                if (dupcnt == 2)
+                                {
+                                    error = 6;
+                                    board.PlayerBoard[row, col] = 0;
+                                    valid = 0;
+                                    gameon = 0;
+                                }
+                            }
+
+                            if (error != 0)
+                            {
+
+                                if (error == 1)
+                                {
+                                    txtOutput.Content = $"Illegal move! - Move out of bounds!";
+                                }
+                                if (error == 2)
+                                {
+                                    txtOutput.Content = $"Illegal move! - Invalid number played!";
+                                }
+                                if (error == 3)
+                                {
+                                    txtOutput.Content = $"Illegal move! - Block occupied!";
+                                }
+                                if (error == 4)
+                                {
+                                    txtOutput.Content = $"Illegal move! - Duplicate Value in row!";
+                                }
+                                if (error == 5)
+                                {
+                                    txtOutput.Content = $"Illegal move! - Duplicate Value in column!";
+                                }
+                                if (error == 6)
+                                {
+                                    txtOutput.Content = $"Illegal move! - Duplicate Value in block!";
+                                }
+                            }
+
+                            if (error == 0)
+                            {
+                                txtOutput.Content = "Valid Move!";
+                                ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                board.PlayerBoard[row, col] = Convert.ToInt32(slider.Value);
+                                b.Content = Convert.ToInt32(slider.Value);
+                                ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                            }
+                            break;
+                        }
+                       
+                    }
+                    
                 }
+
                 if (col == board.BoardSize - 1)
                 {
                     row++;

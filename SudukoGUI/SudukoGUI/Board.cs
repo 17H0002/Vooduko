@@ -8,7 +8,7 @@ namespace SudukoGUI
 {
     class Board
     {
-        public char[,] PlayerBoard { get; set; }
+        public int[,] PlayerBoard { get; set; }
         public int BoardSize { get; private set; }
         public char BoardStyle;
 
@@ -19,7 +19,7 @@ namespace SudukoGUI
             {
                 for (int col = 0; col < BoardSize; col++)
                 {
-                    PlayerBoard[row, col] = BoardStyle;
+                    PlayerBoard[row, col] = 0;
 
                 }
             }
@@ -45,7 +45,7 @@ namespace SudukoGUI
         {
             BoardSize = size;
             BoardStyle = boardStyle;
-            PlayerBoard = new char[size, size];
+            PlayerBoard = new int[size, size];
             setBoard();
         }
     }
