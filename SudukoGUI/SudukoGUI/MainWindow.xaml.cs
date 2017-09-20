@@ -29,14 +29,14 @@ namespace SudukoGUI
         private Button button;
         private Button[] buttons;
         private int counter;
+        int minSelect = 1;
 
         public MainWindow()
         {
             InitializeComponent();
             runGame();
             board = new Board(9, ' ');
-            slider.Maximum = board.BoardSize;
-            
+           
             InitialiseBoardButtons();
         }
 
@@ -182,6 +182,10 @@ namespace SudukoGUI
                             Grid.SetColumn(button, col);
                             grid.Children.Add(button);
                             button.Click += Button_Click;
+                            button.MouseWheel += Button_MouseWheel;
+                            button.MouseEnter += Button_MouseEnter;
+                            button.MouseLeave += Button_MouseLeave;
+                            
                         }
                         else
                         {
@@ -210,10 +214,59 @@ namespace SudukoGUI
             }
         }
 
+        private void Button_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Button b = (Button)sender;
+            int row = 0; int col = 0;
+            for (int i = 1; i <= board.BoardSize * board.BoardSize; i++)
+            {
+                if (b.Name == ("btn" + (i).ToString()))
+                {
+                    if (board.PlayerBoard[row, col] == 0)
+                    {
+                        b.Content = "";
+                    }
+                    break;
+                }
+
+                if (col == board.BoardSize - 1)
+                {
+                    row++;
+                    col = -1;
+                }
+                col++;
+            }
+            minSelect = 1;
+        }
+
+        private void Button_MouseEnter(object sender, MouseEventArgs e)
+        {
+            
+            Button b = (Button)sender;
+            b.Foreground = Brushes.Gray;
+            b.Content = $"  {minSelect}  ";
+        }
+
+        private void Button_MouseWheel(object sender, MouseWheelEventArgs e)
+        {
+            Button b = (Button)sender;
+            if(e.Delta > 0 && minSelect < board.BoardSize)
+            {
+                minSelect++;
+                b.Content = $"  {minSelect}  ";
+            }
+            else if(e.Delta < 0 && minSelect > 1)
+            {
+                minSelect--;
+                b.Content = $"  {minSelect}  ";
+            }
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Button b = (Button)sender;
             updateGame(b);
+            minSelect = 1;
         }
 
         void runGame()
@@ -342,7 +395,7 @@ namespace SudukoGUI
                             int error = 0;
 
                             //Human move
-                            int move = Convert.ToInt32(slider.Value);
+                            int move = minSelect;
                             if (row < 0 || row > 8 || row < 0 || row > 8)
                             {
                                 valid = 0;
@@ -462,7 +515,7 @@ namespace SudukoGUI
 
                             if (error != 0)
                             {
-
+                                b.Content = "";
                                 if (error == 1)
                                 {
                                     txtOutput.Content = $"Illegal move! - Move out of bounds!";
@@ -493,15 +546,15 @@ namespace SudukoGUI
                             {
                                 txtOutput.Content = "Valid Move!";
                                 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                board.PlayerBoard[row, col] = Convert.ToInt32(slider.Value);
-                                b.Content = Convert.ToInt32(slider.Value);
+                                board.PlayerBoard[row, col] = minSelect;
+                                b.Foreground = Brushes.Black;
                                 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                             }
-                            break;
+                            
                         }
                        
                     }
-                    
+                    break;
                 }
 
                 if (col == board.BoardSize - 1)
