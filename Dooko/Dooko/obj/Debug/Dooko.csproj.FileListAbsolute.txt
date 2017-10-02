@@ -1,0 +1,2 @@
+\\ict.ru.ac.za\dfs\ughomes\g17m4006\my documents\visual studio 2015\Projects\Dooko\Dooko\bin\Debug\Dooko.exe.config
+C:\Users\Andrew Nel\Desktop\CSC102\Project\Vooduko\Dooko\Dooko\bin\Debug\Dooko.exe.config

@@ -26,3 +26,6 @@ C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vo
 C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Voodoku\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.g.resources
 C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Voodoku\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.Properties.Resources.resources
 C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Voodoku\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csproj.GenerateResource.Cache
+C:\Users\Andrew Nel\Desktop\CSC102\Project\Vooduko\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe.config
+C:\Users\Andrew Nel\Desktop\CSC102\Project\Vooduko\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.exe
+C:\Users\Andrew Nel\Desktop\CSC102\Project\Vooduko\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.pdb
