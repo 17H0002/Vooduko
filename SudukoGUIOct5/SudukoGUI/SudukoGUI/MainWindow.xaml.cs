@@ -391,13 +391,16 @@ namespace SudukoGUI
             Button b = (Button)sender;
             try
             {
-             updateGame(b);
+                updateGame(b);
+                
             }
             catch(Exception RDE)
             {
                 txtOutput.Content = RDE.Message;
             }
             minSelect = 1;
+            currentGame.gameOn = false;
+            
         }
 
         void runGame()
@@ -564,7 +567,7 @@ namespace SudukoGUI
                 txtOutput.Content = "Valid Move!";
                 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                 currentGame.Board.PlayerBoard[currentGame.row, currentGame.col] = minSelect;
-                b.Foreground = Brushes.Black;
+                b.Foreground = Brushes.Blue;
                 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                // }
 

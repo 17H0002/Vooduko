@@ -40,3 +40,17 @@ C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vo
 \\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\05 102\Vooduko-master\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.g.resources
 \\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\05 102\Vooduko-master\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.Properties.Resources.resources
 \\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\05 102\Vooduko-master\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csproj.GenerateResource.Cache
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\05 102\Vooduko-master\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe.config
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\05 102\Vooduko-master\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.exe
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\05 102\Vooduko-master\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.pdb
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\05 102\Vooduko-master\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\05 102\Vooduko-master\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.pdb
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\05 102\Vooduko-master\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csprojResolveAssemblyReference.cache
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\05 102\Vooduko-master\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.g.cs
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\05 102\Vooduko-master\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\App.g.cs
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\05 102\Vooduko-master\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.cache
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\05 102\Vooduko-master\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.lref
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\05 102\Vooduko-master\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.baml
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\05 102\Vooduko-master\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.g.resources
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\05 102\Vooduko-master\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.Properties.Resources.resources
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\05 102\Vooduko-master\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csproj.GenerateResource.Cache
