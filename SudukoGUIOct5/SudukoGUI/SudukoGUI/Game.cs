@@ -23,30 +23,12 @@ namespace SudukoGUI
 
         public void check1()
         {
-
-            if (row < 0 || row > 8 || row < 0 || row > 8)
-            {
-                gameOn = false;
-                //error = 1;
-
-            }
-            if ((move > 9 || move < 1) && gameOn == false)
-            {
-                gameOn = false;
-                //error = 2;
-
-            }
             if (Board.PlayerBoard[row, col] == 0 && gameOn == false)
             {
                 gameOn = true;
                 Board.PlayerBoard[row, col] = move;
 
 
-            }
-            if ((Board.PlayerBoard[row, col] != 0) && gameOn == false)
-            {
-                gameOn = false;
-                //error = 3;
             }
         }
         public void check2()
@@ -55,7 +37,7 @@ namespace SudukoGUI
             {
                 int dupcnt = 0;
 
-                for (int tt = 0; tt < 9; tt++)
+                for (int tt = 0; tt < Board.BoardSize; tt++)
                 {
                     if (Board.PlayerBoard[row, tt] == move)
                     {
@@ -79,7 +61,7 @@ namespace SudukoGUI
             {
                 int dupcnt = 0;
 
-                for (int tt = 0; tt < 9; tt++)
+                for (int tt = 0; tt < Board.BoardSize; tt++)
                 {
                     if (Board.PlayerBoard[tt, col] == move)
                     {
