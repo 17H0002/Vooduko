@@ -36,7 +36,6 @@ namespace SudukoGUI
             InitializeComponent();
             runGame();
             board = new Board(9, ' ');
-           
             InitialiseBoardButtons();
         }
 
@@ -495,16 +494,16 @@ namespace SudukoGUI
 
                     if (valid == 1)
                     {
-                        int RBound = (row / board.BoardSize) * board.BoardSize;
-                        int CBound = (col / board.BoardSize) * board.BoardSize;
+                        int RBound = (row / board.BlockLength) * board.BlockLength;
+                        int CBound = (col / board.BlockHeight) * board.BlockHeight;
                         int[] bline;
                         int ic = 0;
-                        int bi = board.BoardSize * board.BoardSize;
+                        int bi = board.BlockLength * board.BlockHeight;
                         bline = new int[bi];
 
-                        for (int rc = 0; rc < board.BoardSize; rc++)
+                        for (int rc = 0; rc < board.BlockLength; rc++)
                         {
-                            for (int cc = 0; cc < board.BoardSize; cc++)
+                            for (int cc = 0; cc < board.BlockHeight; cc++)
                             {
                                 bline[ic] = board.PlayerBoard[RBound, CBound];
                                 ic = ic + 1;
@@ -512,7 +511,7 @@ namespace SudukoGUI
 
                             }
                             RBound = RBound + 1;
-                            CBound = (col / board.BoardSize) * board.BoardSize;
+                            CBound = (col / board.BlockHeight) * board.BlockLength;
                         }
                         int dupcnt = 0;
 
