@@ -54,3 +54,17 @@ C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vo
 \\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\05 102\Vooduko-master\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.g.resources
 \\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\05 102\Vooduko-master\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.Properties.Resources.resources
 \\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\05 102\Vooduko-master\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csproj.GenerateResource.Cache
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe.config
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.exe
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.pdb
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.pdb
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csprojResolveAssemblyReference.cache
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.g.cs
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\App.g.cs
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.cache
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.lref
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.baml
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.g.resources
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.Properties.Resources.resources
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csproj.GenerateResource.Cache

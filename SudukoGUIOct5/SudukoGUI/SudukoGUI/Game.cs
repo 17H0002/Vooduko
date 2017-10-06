@@ -81,24 +81,25 @@ namespace SudukoGUI
         {
             if (gameOn == true)
             {
-                int RBound = (row / Board.BlockLength) * Board.BlockLength;
-                int CBound = (col / Board.BlockHeight) * Board.BlockHeight;
+                int RBound = (row / Board.BlockHeight) * Board.BlockHeight;
+                int CBound = (col / Board.BlockLength) * Board.BlockLength;
                 int[] bline;
                 int ic = 0;
                 int bi = Board.BlockLength * Board.BlockHeight;
                 bline = new int[bi];
 
-                for (int rc = 0; rc < Board.BlockLength; rc++)
+                for (int rc = 0; rc < Board.BlockHeight; rc++)
                 {
-                    for (int cc = 0; cc < Board.BlockHeight; cc++)
+                    for (int cc = 0; cc < Board.BlockLength; cc++)
                     {
                         bline[ic] = Board.PlayerBoard[RBound, CBound];
                         ic = ic + 1;
                         CBound = CBound + 1;
 
                     }
+
                     RBound = RBound + 1;
-                    CBound = (col / Board.BlockHeight) * Board.BlockLength;
+                    CBound = (col / Board.BlockLength) * Board.BlockLength;
                 }
                 int dupcnt = 0;
 
