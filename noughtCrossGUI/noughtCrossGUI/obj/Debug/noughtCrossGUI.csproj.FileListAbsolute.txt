@@ -12,3 +12,17 @@ C:\Users\Andrew Nel\Desktop\noughtCrossGUI\noughtCrossGUI\obj\Debug\noughtCrossG
 C:\Users\Andrew Nel\Desktop\noughtCrossGUI\noughtCrossGUI\obj\Debug\noughtCrossGUI.pdb
 C:\Users\Andrew Nel\Desktop\noughtCrossGUI\noughtCrossGUI\obj\Debug\MainWindow.g.cs
 C:\Users\Andrew Nel\Desktop\noughtCrossGUI\noughtCrossGUI\obj\Debug\MainWindow.baml
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\noughtCrossGUI\noughtCrossGUI\bin\Debug\noughtCrossGUI.exe.config
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\noughtCrossGUI\noughtCrossGUI\obj\Debug\noughtCrossGUI.exe
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\noughtCrossGUI\noughtCrossGUI\obj\Debug\noughtCrossGUI.pdb
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\noughtCrossGUI\noughtCrossGUI\bin\Debug\noughtCrossGUI.exe
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\noughtCrossGUI\noughtCrossGUI\bin\Debug\noughtCrossGUI.pdb
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\noughtCrossGUI\noughtCrossGUI\obj\Debug\noughtCrossGUI.csprojResolveAssemblyReference.cache
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\noughtCrossGUI\noughtCrossGUI\obj\Debug\MainWindow.g.cs
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\noughtCrossGUI\noughtCrossGUI\obj\Debug\App.g.cs
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\noughtCrossGUI\noughtCrossGUI\obj\Debug\noughtCrossGUI_MarkupCompile.cache
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\noughtCrossGUI\noughtCrossGUI\obj\Debug\noughtCrossGUI_MarkupCompile.lref
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\noughtCrossGUI\noughtCrossGUI\obj\Debug\MainWindow.baml
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\noughtCrossGUI\noughtCrossGUI\obj\Debug\noughtCrossGUI.g.resources
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\noughtCrossGUI\noughtCrossGUI\obj\Debug\noughtCrossGUI.Properties.Resources.resources
+C:\Users\Andrew Nel\Documents\Rhodes BSc\First Year\Semester 2\CSC102\Project\Vooduko\noughtCrossGUI\noughtCrossGUI\obj\Debug\noughtCrossGUI.csproj.GenerateResource.Cache
