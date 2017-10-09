@@ -21,17 +21,34 @@ namespace SudukoGUI
     public partial class MainWindow : Window
     {
         List<Board> boards = new List<Board>() { };
-        List<Game> games = new List<Game>() { };
+        //List<Game> games = new List<Game>() { };
+        Dictionary<string, Game> games = new Dictionary<string, Game>();
+        List<string> oldGames;
         Game currentGame;
         private Button button;
         private Button[] buttons;
         private int counter;
         int minSelect = 1;
+       
 
         public MainWindow()
         {
             InitializeComponent();
-            runGame();
+            oldGames = new List<string>() { };
+            try
+            {
+                loadFiles();
+            }
+            catch (FileNotFoundException)
+            {
+                txtOutput.Content = ("There is no saved game, please start a new game and save.");
+            }
+            catch (FileFormatException)
+            {
+                MessageBox.Show("The saved file is empty or corrupted, please start a new game.");
+            }
+            listViewOldGames.ItemsSource = oldGames;
+            
         }
 
         public class RowDupeException : Exception
@@ -245,8 +262,13 @@ namespace SudukoGUI
                 {
                     buttons[i].Content = $"      ";
                 }
-                if (currentGame.Board.PlayerBoard[row, col] != 0)
+                if (currentGame.Board.PlayerBoard[row, col] != 0 && !currentGame.ValidMoves.ContainsKey(new Point(row, col)))
+                {
                     buttons[i].IsEnabled = false;
+                }else
+                {
+                    buttons[i].Foreground = Brushes.Blue;
+                }
                 if (col == currentGame.Board.BoardSize - 1)
                 {
                     row++;
@@ -341,6 +363,7 @@ namespace SudukoGUI
             {
                 currentGame.Board.PlayerBoard[currentGame.row, currentGame.col] = 0;
                 b.Content = "";
+                currentGame.ValidMoves.Remove(new Point(currentGame.row, currentGame.col));
             }
 
         }
@@ -430,50 +453,47 @@ namespace SudukoGUI
             
         }
 
-        void runGame()
-        {
-            if (MessageBox.Show("Continue From Last Game?", "Question", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
-            {
-                try
-                {
-                    load();
-                }
-                catch (FileNotFoundException)
-                {
-                    MessageBox.Show("There is no saved game, please start a new game and save.");
-                    initGame();
-                }
-                catch (FileFormatException)
-                {
-                    MessageBox.Show("The saved file is empty or corrupted, please start a new game.");
-                    initGame();
-                }
-            }
-            else
-            {
-                initGame();
-            }
-        }
-
         private void initGame()
         {
-            txtOutput.Content = "Enter the details:";
-            currentGame = new Game("Test", new string[2] { "String1", "String2" }, 0, chooseBoard("12x12"), 0, false, 0, "", 0, 0, 0);
-            InitialiseBoardButtons();
-            games.Add(currentGame);
-        }
-        public void save()
-        {
-            StreamWriter w = File.CreateText("File");
-            foreach (Game g in games)
+            string sze = "";
+            switch (comboBox.SelectedIndex)
             {
-                w.WriteLine(g.gameName + "," + g.playerNames[0] + "," + g.playerNames[1] + "," + g.player + "," + g.Board.BoardSize + "," + g.Board.ToElements() + "," + Convert.ToString(g.gameMode) + "," + Convert.ToString(g.gameOn) + "," + Convert.ToInt32(g.numMoves) + "," + g.message + "," + Convert.ToInt32(g.row) + "," + Convert.ToInt32(g.col) + "," + Convert.ToInt32(g.move) + "\n");
+                case 0: sze = "4x4"; break; 
+                case 1: sze = "6x6"; break;
+                case 2: sze = "9x9"; break;
+                case 3: sze = "12x12"; break;
+                case 4: sze = "16x16"; break;
             }
-            w.Close();
+            txtOutput.Content = "Enter the details:";
+            currentGame = new Game(txtGameName.Text, new string[2] { txtPlayer1name.Text, txtPlayer2name.Text }, 0, chooseBoard(sze), 0, false, 0, "", 0, 0, 0);
+            InitialiseBoardButtons();
+            games.Add(currentGame.gameName,currentGame);
         }
-        public void load()
+        public void save(bool delete)
         {
-            string[] lines = File.ReadAllLines("File");
+            StreamWriter files;
+            StreamWriter w;
+            files = new StreamWriter("Games");
+
+            foreach (KeyValuePair<string, Game> g in games)
+            {
+                if (!delete)
+                {
+                    w = new StreamWriter($"{g.Value.gameName}");
+                    w.WriteLine(g.Value.gameName + "," + g.Value.playerNames[0] + "," + g.Value.playerNames[1] + "," + g.Value.player + "," + g.Value.Board.BoardSize + "," + g.Value.Board.ToElements() + "," + Convert.ToString(g.Value.gameMode) + "," + Convert.ToString(g.Value.gameOn) + "," + Convert.ToInt32(g.Value.numMoves) + "," + g.Value.message + "," + Convert.ToInt32(g.Value.row) + "," + Convert.ToInt32(g.Value.col) + "," + Convert.ToInt32(g.Value.move));
+                    foreach (KeyValuePair<Point, int> k in g.Value.ValidMoves)
+                    {
+                        w.WriteLine($"$EVS$,{k.Key.X},{k.Key.Y},{k.Value}");
+                    }
+                    w.Close();
+                }
+                files.WriteLine($"{g.Value.gameName}");
+            }
+            files.Close();
+        }
+        public void load(string gameToLoad)
+        {
+            string[] lines = File.ReadAllLines(gameToLoad);
             if (lines.Length != 0)
             {
                 foreach (string line in lines)
@@ -481,34 +501,56 @@ namespace SudukoGUI
                     if (line != null && line != "")
                     {
                         string[] splitter = line.Split(',');
-                        Board boarder = new Board(Convert.ToInt32(splitter[4]));
-                        string[] rows = splitter[5].Split('/');
-                        for (int row = 0; row < boarder.BoardSize; row++)
+                        if (splitter[0] != "$EVS$")
                         {
-                            string[] elements = rows[row].Split('-');
-                            for (int col = 0; col < boarder.BoardSize; col++)
+                            Board boarder = new Board(Convert.ToInt32(splitter[4]));
+                            string[] rows = splitter[5].Split('/');
+                            for (int row = 0; row < boarder.BoardSize; row++)
                             {
-                                boarder.PlayerBoard[row, col] = Convert.ToInt32(elements[col]);
+                                string[] elements = rows[row].Split('-');
+                                for (int col = 0; col < boarder.BoardSize; col++)
+                                {
+                                    boarder.PlayerBoard[row, col] = Convert.ToInt32(elements[col]);
+                                }
                             }
+                            string[] loadPlayers = new string[2] { splitter[1], splitter[2] };
+                            int playerKey = 0;
+                            switch (splitter[3])
+                            {
+                                case "player1": playerKey = 0; break;
+                                case "player2": playerKey = 1; break;
+                                case "computerAI": playerKey = 2; break;
+                                default: break;
+                            }
+                            currentGame = new Game(splitter[0], loadPlayers, playerKey, boarder, Convert.ToInt32(splitter[6]), Convert.ToBoolean(splitter[7]), Convert.ToInt32(splitter[8]), splitter[9], Convert.ToInt32(splitter[10]), Convert.ToInt32(splitter[11]), Convert.ToInt32(splitter[12]));
+                            games.Add(currentGame.gameName, currentGame);
                         }
-                        string[] loadPlayers = new string[2] { splitter[1], splitter[2] };
-                        int playerKey = 0;
-                        switch (splitter[3])
+                        else
                         {
-                            case "player1": playerKey = 0; break;
-                            case "player2": playerKey = 1; break;
-                            case "computerAI": playerKey = 2; break;
-                            default: break;
+                            currentGame.ValidMoves.Add(new Point(Convert.ToInt32(splitter[1]), Convert.ToInt32(splitter[2])), Convert.ToInt32(splitter[3]));
                         }
-                        currentGame = new Game(splitter[0], loadPlayers, playerKey, boarder, Convert.ToInt32(splitter[6]), Convert.ToBoolean(splitter[7]), Convert.ToInt32(splitter[8]), splitter[9], Convert.ToInt32(splitter[10]), Convert.ToInt32(splitter[11]), Convert.ToInt32(splitter[12]));
-                        games.Add(currentGame);
-                        InitialiseBoardButtons();
                     }
                 }
             }
             else
             {
                 throw new FileFormatException();
+            }
+        }
+        public void loadFiles()
+        {
+            string[] lines = File.ReadAllLines("Games");
+            if (lines.Length != 0)
+            {
+                foreach (string line in lines)
+                {
+                    if (line != null && line != "")
+                    {
+                        string[] splitter = line.Split(',');
+                        oldGames.Add(splitter[0]);
+                        load(line);
+                    }
+                }
             }
         }
        
@@ -536,9 +578,6 @@ namespace SudukoGUI
             }
             else
             {
-
-                //--------------------------int gameon = 1;
-
                 determinePlayer();
                 if (currentGame.player == Game.playerType.computerAI)
                 {
@@ -549,52 +588,92 @@ namespace SudukoGUI
                     currentGame.check(minSelect);
                 }
                 result();
-
-
-                //if (error != 0)
-                //{
-                //    b.Content = "";
-                //    if (error == 1)
-                //    {
-                //        txtOutput.Content = $"Illegal move! - Move out of bounds!";
-                //    }
-                //    if (error == 2)
-                //    {
-                //        txtOutput.Content = $"Illegal move! - Invalid number played!";
-                //    }
-                //    if (error == 3)
-                //    {
-                //        txtOutput.Content = $"Illegal move! - Block occupied!";
-                //    }
-                //    if (error == 4)
-                //    {
-                //        txtOutput.Content = $"Illegal move! - Duplicate Value in row!";
-                //    }
-                //    if (error == 5)
-                //    {
-                //        txtOutput.Content = $"Illegal move! - Duplicate Value in column!";
-                //    }
-                //    if (error == 6)
-                //    {
-                //        txtOutput.Content = $"Illegal move! - Duplicate Value in block!";
-                //    }
-                //}
-
-                //if (error == 0)
-                //{
                 txtOutput.Content = "Valid Move!";
-                ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                 currentGame.Board.PlayerBoard[currentGame.row, currentGame.col] = minSelect;
                 b.Foreground = Brushes.Blue;
-                //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-               // }
-
+                currentGame.ValidMoves.Add(new Point(currentGame.row, currentGame.col), minSelect);
             }
         }
 
         private void button_Click_1(object sender, RoutedEventArgs e)
         {
             MessageBox.Show(currentGame.Board.ToString());
+            save(false);
+        }
+
+        private void btnPlay_Click(object sender, RoutedEventArgs e)
+        {
+            initGame();
+            Details.Visibility = Visibility.Hidden;
+            grid.Visibility = Visibility.Visible;
+        }
+
+        private void btnDeleteGame_Click(object sender, RoutedEventArgs e)
+        {
+            File.Delete(oldGames[listViewOldGames.SelectedIndex]);
+            games.Remove(oldGames[listViewOldGames.SelectedIndex]);
+            oldGames.RemoveAt(listViewOldGames.SelectedIndex);
+            listViewOldGames.SelectedIndex = -1;
+            save(true);
+            listViewOldGames.Items.Refresh();
+        }
+
+        private void btnResumeGame_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                currentGame = games[oldGames[listViewOldGames.SelectedIndex]];
+                InitialiseBoardButtons();
+                Details.Visibility = Visibility.Hidden;
+                grid.Visibility = Visibility.Visible;
+                txtOutput.Content = "Make your move!";
+            }
+            catch (FileNotFoundException)
+            {
+
+                MessageBox.Show("There is no saved game, please start a new game and save.");
+                Details.Visibility = Visibility.Visible;
+                grid.Visibility = Visibility.Hidden;
+                oldGames.Clear();
+                File.CreateText("Games");
+
+            }
+            catch (FileFormatException)
+            {
+                MessageBox.Show("The saved file is empty or corrupted, please start a new game.");
+                Details.Visibility = Visibility.Visible;
+                grid.Visibility = Visibility.Hidden;
+                foreach (string s in oldGames)
+                {
+                    File.Delete(s);
+                }
+                oldGames.Clear();
+                File.CreateText("Games");
+            }
+            catch (IndexOutOfRangeException)
+            {
+                MessageBox.Show("The saved file is empty or corrupted, please start a new game.");
+                Details.Visibility = Visibility.Visible;
+                grid.Visibility = Visibility.Hidden;
+                foreach (string s in oldGames)
+                {
+                    File.Delete(s);
+                }
+                oldGames.Clear();
+                File.CreateText("Games");
+            }
+            catch (NotSupportedException)
+            {
+                MessageBox.Show("The saved file is empty or corrupted, please start a new game.");
+                Details.Visibility = Visibility.Visible;
+                grid.Visibility = Visibility.Hidden;
+                foreach (string s in oldGames)
+                {
+                    File.Delete(s);
+                }
+                oldGames.Clear();
+                File.CreateText("Games");
+            }
         }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace SudukoGUI
 {
@@ -20,15 +21,13 @@ namespace SudukoGUI
         public int row { get; set; }
         public int col { get; set; }
         public int move { get; set; }
-
+        public Dictionary<Point, int> ValidMoves; //Dictionary to store valid moves to know which values are editable once the program loads a previous game.
         public void check1()
         {
             if (Board.PlayerBoard[row, col] == 0 && gameOn == false)
             {
                 gameOn = true;
                 Board.PlayerBoard[row, col] = move;
-
-
             }
         }
         public void check2()
@@ -42,7 +41,6 @@ namespace SudukoGUI
                     if (Board.PlayerBoard[row, tt] == move)
                     {
                         dupcnt = dupcnt + 1;
-
                     }
                 }
                 if (dupcnt == 2)
@@ -131,7 +129,7 @@ namespace SudukoGUI
         //Initialiser for all sudoku games.
         public Game()
         {
-
+            ValidMoves = new Dictionary<Point, int>();
         }
         //Initialiser for loading previous games.
         public Game(string name, string[] players, int p, Board b, int mode, bool on, int moves, string m, int r, int mc, int mov)
@@ -147,6 +145,7 @@ namespace SudukoGUI
             row = r;
             col = mc;
             move = mov;
+            ValidMoves = new Dictionary<Point, int>();
         }
     }
 }

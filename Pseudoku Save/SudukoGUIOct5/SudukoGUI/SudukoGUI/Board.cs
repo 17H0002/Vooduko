@@ -95,6 +95,7 @@ namespace SudukoGUI
 
             return output;
         }
+
         public Board(int size)
         {
             BoardSize = size;

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SudukoGUI"
         mc:Ignorable="d"
-        Title="Suduko" Height="800" Width="800" HorizontalAlignment="Center" VerticalAlignment="Center">
+        Title="Suduko" Height="900" Width="1000" HorizontalAlignment="Center" VerticalAlignment="Center">
 
     <Window.Resources>
         <Style x:Key="FocusVisual">
@@ -63,10 +63,38 @@
 
     <Grid HorizontalAlignment="Stretch" Width="Auto" Height="Auto" VerticalAlignment="Stretch">
 
-        <Label x:Name="label" Content="Welcome to Suduko!!" HorizontalContentAlignment="Center" FontSize="24" FontWeight="Bold"  Height="42" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
-        <Grid x:Name="grid" Height="Auto" Width="Auto" VerticalAlignment="Top"  Margin ="0,100,0,0" HorizontalAlignment="Center"/>
-        <Label x:Name="txtOutput" Content="Label" Margin="10,37,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="37" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" Width="654"/>
+        <Label x:Name="label" Content="Welcome to Suduko!!" HorizontalContentAlignment="Center" FontSize="48" FontWeight="Bold"  Height="79" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+        <Grid x:Name="grid" Visibility="Hidden" Height="Auto" Width="Auto" VerticalAlignment="Top"  Margin ="0,150,0,0" HorizontalAlignment="Center"/>
+        <Label x:Name="txtOutput" Content="Choose an Option Below" Margin="176,84,162,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="52" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Width="654"/>
         <Button x:Name="button2" Content="Look At Array" HorizontalAlignment="Right" VerticalAlignment="Top" Width="75" Click="button_Click_1"/>
+        <Grid x:Name="Details" HorizontalAlignment="Center" Height="604" VerticalAlignment="Center" Width="972" Margin="0,204,20,61">
+            <Label x:Name="label1" Content="Game Name:" HorizontalAlignment="Left" Margin="61,70,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+            <Label x:Name="label1_Copy" Content="Name Of Player 1:" HorizontalAlignment="Left" Margin="61,112,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+            <Label x:Name="label1_Copy1" Content="Name Of Player 2:" HorizontalAlignment="Left" Margin="61,154,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+            <TextBox x:Name="txtGameName" TextAlignment="Center" HorizontalAlignment="Left" Height="33" Margin="252,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="20" FontWeight="Bold"/>
+            <TextBox x:Name="txtPlayer1name" TextAlignment="Center" HorizontalAlignment="Left" Height="33" Margin="252,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="20" FontWeight="Bold"/>
+            <TextBox x:Name="txtPlayer2name" TextAlignment="Center" HorizontalAlignment="Left" Height="33" Margin="252,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="20" FontWeight="Bold"/>
+            <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="252,209,0,0" VerticalAlignment="Top" Width="229" FontSize="20" FontWeight="Bold" SelectedIndex="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+                <ComboBoxItem Content="4 X 4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <ComboBoxItem Content="6 X 6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <ComboBoxItem Content="9 X 9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <ComboBoxItem Content="12 X 12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <ComboBoxItem Content="16 X 16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </ComboBox>
+            <Label x:Name="lblBoard" Content="Board Size:" HorizontalAlignment="Left" Margin="61,207,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+            <Button x:Name="btnPlay" Content="Let's Play!" HorizontalAlignment="Left" Margin="74,259,0,0" VerticalAlignment="Top" Width="407" FontSize="36" FontWeight="Bold" Click="btnPlay_Click"/>
+            <Label x:Name="label1_Copy2" Content="New Game Details" HorizontalAlignment="Left" Margin="61,10,0,0" VerticalAlignment="Top" FontSize="36" Width="420" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+            <ListView x:Name="listViewOldGames" HorizontalAlignment="Left" Height="169" Margin="510,75,0,0" VerticalAlignment="Top" Width="452" FontSize="36" FontWeight="Bold" HorizontalContentAlignment="Center" Background="{x:Null}" >
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <Label x:Name="label1_Copy3" Content="Resume a previous game?" HorizontalAlignment="Left" Margin="510,10,0,0" VerticalAlignment="Top" FontSize="36" Width="452" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+            <Button x:Name="btnDeleteGame" Content="Delete Game" HorizontalAlignment="Left" Margin="510,259,0,0" VerticalAlignment="Top" Width="237" FontSize="24" FontWeight="Bold" Click="btnDeleteGame_Click" Height="52"/>
+            <Button x:Name="btnResumeGame" Content="Resume Game" HorizontalAlignment="Left" Margin="752,259,0,0" VerticalAlignment="Top" Width="210" FontSize="24" FontWeight="Bold" Height="52" Click="btnResumeGame_Click"/>
+        </Grid>
     </Grid>
 
 </Window>
