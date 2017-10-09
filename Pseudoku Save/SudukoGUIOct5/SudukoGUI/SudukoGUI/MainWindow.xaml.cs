@@ -21,16 +21,14 @@ namespace SudukoGUI
     public partial class MainWindow : Window
     {
         List<Board> boards = new List<Board>() { };
-        //List<Game> games = new List<Game>() { };
         Dictionary<string, Game> games = new Dictionary<string, Game>();
         List<string> oldGames;
         Game currentGame;
         private Button button;
         private Button[] buttons;
         private int counter;
-        int minSelect = 1;
+        private int minSelect = 1;
        
-
         public MainWindow()
         {
             InitializeComponent();
@@ -48,7 +46,6 @@ namespace SudukoGUI
                 MessageBox.Show("The saved file is empty or corrupted, please start a new game.");
             }
             listViewOldGames.ItemsSource = oldGames;
-            
         }
 
         public class RowDupeException : Exception
@@ -148,6 +145,7 @@ namespace SudukoGUI
                 }
             }
         }
+        
         //Displays results of an invalid move (View)
         public void result()
         {
@@ -469,6 +467,7 @@ namespace SudukoGUI
             InitialiseBoardButtons();
             games.Add(currentGame.gameName,currentGame);
         }
+
         public void save(bool delete)
         {
             StreamWriter files;
@@ -491,6 +490,7 @@ namespace SudukoGUI
             }
             files.Close();
         }
+
         public void load(string gameToLoad)
         {
             string[] lines = File.ReadAllLines(gameToLoad);
@@ -537,7 +537,8 @@ namespace SudukoGUI
                 throw new FileFormatException();
             }
         }
-        public void loadFiles()
+
+        private void loadFiles()
         {
             string[] lines = File.ReadAllLines("Games");
             if (lines.Length != 0)

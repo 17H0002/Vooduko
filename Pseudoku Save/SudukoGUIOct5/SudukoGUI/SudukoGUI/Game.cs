@@ -22,6 +22,7 @@ namespace SudukoGUI
         public int col { get; set; }
         public int move { get; set; }
         public Dictionary<Point, int> ValidMoves; //Dictionary to store valid moves to know which values are editable once the program loads a previous game.
+
         public void check1()
         {
             if (Board.PlayerBoard[row, col] == 0 && gameOn == false)
@@ -35,7 +36,6 @@ namespace SudukoGUI
             if (gameOn == true)
             {
                 int dupcnt = 0;
-
                 for (int tt = 0; tt < Board.BoardSize; tt++)
                 {
                     if (Board.PlayerBoard[row, tt] == move)
@@ -45,9 +45,7 @@ namespace SudukoGUI
                 }
                 if (dupcnt == 2)
                 {
-
                     Board.PlayerBoard[row, col] = 0;
-                    //error = 4;
                     gameOn = false;
                     throw new MainWindow.RowDupeException();
                 }
@@ -58,7 +56,6 @@ namespace SudukoGUI
             if (gameOn == true)
             {
                 int dupcnt = 0;
-
                 for (int tt = 0; tt < Board.BoardSize; tt++)
                 {
                     if (Board.PlayerBoard[tt, col] == move)
@@ -68,7 +65,6 @@ namespace SudukoGUI
                 }
                 if (dupcnt == 2)
                 {
-                    //error = 5;
                     Board.PlayerBoard[row, col] = 0;
                     gameOn = false;
                     throw new MainWindow.ColDupeException();
@@ -110,14 +106,13 @@ namespace SudukoGUI
                 }
                 if (dupcnt == 2)
                 {
-                    //error = 6;
                     Board.PlayerBoard[row, col] = 0;
                     gameOn = false;
                     throw new MainWindow.BlockDupeException();
                 }
             }
         }
-        //Check procedures.
+        
         public void check(int moveValue)
         {
             move = moveValue;

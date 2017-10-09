@@ -12,7 +12,6 @@ namespace SudukoGUI
         public int BoardSize { get; private set; }
         public int BlockLength { get; private set; }
         public int BlockHeight { get; private set; }
-
         private struct BlockDimensions
         {
             public int Vertical, Horizontal;
@@ -48,7 +47,6 @@ namespace SudukoGUI
             }
         }
         public char BoardStyle;
-
         private void setBoard()
         {
 
@@ -61,7 +59,6 @@ namespace SudukoGUI
                 }
             }
         }
-
         public override string ToString()
         {
 
