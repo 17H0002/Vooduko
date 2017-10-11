@@ -1,0 +1,134 @@
+C:\Users\hagus\Desktop\project\Vooduko-master\Pseudoku Save\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe.config
+C:\Users\hagus\Desktop\project\Vooduko-master\Pseudoku Save\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe
+C:\Users\hagus\Desktop\project\Vooduko-master\Pseudoku Save\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.pdb
+C:\Users\hagus\Desktop\project\Vooduko-master\Pseudoku Save\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csprojResolveAssemblyReference.cache
+C:\Users\hagus\Desktop\project\Vooduko-master\Pseudoku Save\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.g.cs
+C:\Users\hagus\Desktop\project\Vooduko-master\Pseudoku Save\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\App.g.cs
+C:\Users\hagus\Desktop\project\Vooduko-master\Pseudoku Save\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.cache
+C:\Users\hagus\Desktop\project\Vooduko-master\Pseudoku Save\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.lref
+C:\Users\hagus\Desktop\project\Vooduko-master\Pseudoku Save\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.baml
+C:\Users\hagus\Desktop\project\Vooduko-master\Pseudoku Save\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.g.resources
+C:\Users\hagus\Desktop\project\Vooduko-master\Pseudoku Save\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.Properties.Resources.resources
+C:\Users\hagus\Desktop\project\Vooduko-master\Pseudoku Save\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csproj.GenerateResource.Cache
+C:\Users\hagus\Desktop\project\Vooduko-master\Pseudoku Save\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.exe
+C:\Users\hagus\Desktop\project\Vooduko-master\Pseudoku Save\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.pdb
+\\ict.ru.ac.za\DFS\UGHomes\g17m4006\Desktop\Vooduko-master\Oct10Edit1\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe.config
+\\ict.ru.ac.za\DFS\UGHomes\g17m4006\Desktop\Vooduko-master\Oct10Edit1\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.exe
+\\ict.ru.ac.za\DFS\UGHomes\g17m4006\Desktop\Vooduko-master\Oct10Edit1\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.pdb
+\\ict.ru.ac.za\DFS\UGHomes\g17m4006\Desktop\Vooduko-master\Oct10Edit1\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe
+\\ict.ru.ac.za\DFS\UGHomes\g17m4006\Desktop\Vooduko-master\Oct10Edit1\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.pdb
+\\ict.ru.ac.za\DFS\UGHomes\g17m4006\Desktop\Vooduko-master\Oct10Edit1\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csprojResolveAssemblyReference.cache
+\\ict.ru.ac.za\DFS\UGHomes\g17m4006\Desktop\Vooduko-master\Oct10Edit1\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.g.cs
+\\ict.ru.ac.za\DFS\UGHomes\g17m4006\Desktop\Vooduko-master\Oct10Edit1\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\App.g.cs
+\\ict.ru.ac.za\DFS\UGHomes\g17m4006\Desktop\Vooduko-master\Oct10Edit1\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.cache
+\\ict.ru.ac.za\DFS\UGHomes\g17m4006\Desktop\Vooduko-master\Oct10Edit1\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.lref
+\\ict.ru.ac.za\DFS\UGHomes\g17m4006\Desktop\Vooduko-master\Oct10Edit1\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.baml
+\\ict.ru.ac.za\DFS\UGHomes\g17m4006\Desktop\Vooduko-master\Oct10Edit1\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.g.resources
+\\ict.ru.ac.za\DFS\UGHomes\g17m4006\Desktop\Vooduko-master\Oct10Edit1\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.Properties.Resources.resources
+\\ict.ru.ac.za\DFS\UGHomes\g17m4006\Desktop\Vooduko-master\Oct10Edit1\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csproj.GenerateResource.Cache
+C:\Users\hagus\Desktop\project\edit 2\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe.config
+C:\Users\hagus\Desktop\project\edit 2\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe
+C:\Users\hagus\Desktop\project\edit 2\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.pdb
+C:\Users\hagus\Desktop\project\edit 2\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csprojResolveAssemblyReference.cache
+C:\Users\hagus\Desktop\project\edit 2\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.g.cs
+C:\Users\hagus\Desktop\project\edit 2\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\App.g.cs
+C:\Users\hagus\Desktop\project\edit 2\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.cache
+C:\Users\hagus\Desktop\project\edit 2\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.lref
+C:\Users\hagus\Desktop\project\edit 2\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.baml
+C:\Users\hagus\Desktop\project\edit 2\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.g.resources
+C:\Users\hagus\Desktop\project\edit 2\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.Properties.Resources.resources
+C:\Users\hagus\Desktop\project\edit 2\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csproj.GenerateResource.Cache
+C:\Users\hagus\Desktop\project\edit 2\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.exe
+C:\Users\hagus\Desktop\project\edit 2\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.pdb
+C:\Users\hagus\Desktop\project\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe.config
+C:\Users\hagus\Desktop\project\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe
+C:\Users\hagus\Desktop\project\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.pdb
+C:\Users\hagus\Desktop\project\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csprojResolveAssemblyReference.cache
+C:\Users\hagus\Desktop\project\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.g.cs
+C:\Users\hagus\Desktop\project\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\App.g.cs
+C:\Users\hagus\Desktop\project\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.cache
+C:\Users\hagus\Desktop\project\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.lref
+C:\Users\hagus\Desktop\project\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.baml
+C:\Users\hagus\Desktop\project\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.g.resources
+C:\Users\hagus\Desktop\project\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.Properties.Resources.resources
+C:\Users\hagus\Desktop\project\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csproj.GenerateResource.Cache
+C:\Users\hagus\Desktop\project\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.exe
+C:\Users\hagus\Desktop\project\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.pdb
+C:\Users\hagus\Desktop\project\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe.config
+C:\Users\hagus\Desktop\project\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe
+C:\Users\hagus\Desktop\project\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.pdb
+C:\Users\hagus\Desktop\project\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csprojResolveAssemblyReference.cache
+C:\Users\hagus\Desktop\project\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.g.cs
+C:\Users\hagus\Desktop\project\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\App.g.cs
+C:\Users\hagus\Desktop\project\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.cache
+C:\Users\hagus\Desktop\project\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.lref
+C:\Users\hagus\Desktop\project\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.baml
+C:\Users\hagus\Desktop\project\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.g.resources
+C:\Users\hagus\Desktop\project\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.Properties.Resources.resources
+C:\Users\hagus\Desktop\project\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csproj.GenerateResource.Cache
+C:\Users\hagus\Desktop\project\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.exe
+C:\Users\hagus\Desktop\project\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.pdb
+C:\Users\hagus\Desktop\project\4.3\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe.config
+C:\Users\hagus\Desktop\project\4.3\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe
+C:\Users\hagus\Desktop\project\4.3\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.pdb
+C:\Users\hagus\Desktop\project\4.3\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csprojResolveAssemblyReference.cache
+C:\Users\hagus\Desktop\project\4.3\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.g.cs
+C:\Users\hagus\Desktop\project\4.3\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\App.g.cs
+C:\Users\hagus\Desktop\project\4.3\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.cache
+C:\Users\hagus\Desktop\project\4.3\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.lref
+C:\Users\hagus\Desktop\project\4.3\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.baml
+C:\Users\hagus\Desktop\project\4.3\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.g.resources
+C:\Users\hagus\Desktop\project\4.3\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.Properties.Resources.resources
+C:\Users\hagus\Desktop\project\4.3\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csproj.GenerateResource.Cache
+C:\Users\hagus\Desktop\project\4.3\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.exe
+C:\Users\hagus\Desktop\project\4.3\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.pdb
+C:\Users\hagus\Desktop\project\4.3\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\Interop.WMPLib.dll
+C:\Users\hagus\Desktop\project\4.3\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csproj.ResolveComReference.cache
+C:\Users\hagus\Desktop\project\4.4\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe.config
+C:\Users\hagus\Desktop\project\4.4\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe
+C:\Users\hagus\Desktop\project\4.4\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.pdb
+C:\Users\hagus\Desktop\project\4.4\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csprojResolveAssemblyReference.cache
+C:\Users\hagus\Desktop\project\4.4\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\Interop.WMPLib.dll
+C:\Users\hagus\Desktop\project\4.4\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csproj.ResolveComReference.cache
+C:\Users\hagus\Desktop\project\4.4\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.g.cs
+C:\Users\hagus\Desktop\project\4.4\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\App.g.cs
+C:\Users\hagus\Desktop\project\4.4\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.cache
+C:\Users\hagus\Desktop\project\4.4\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.lref
+C:\Users\hagus\Desktop\project\4.4\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.baml
+C:\Users\hagus\Desktop\project\4.4\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.g.resources
+C:\Users\hagus\Desktop\project\4.4\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.Properties.Resources.resources
+C:\Users\hagus\Desktop\project\4.4\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csproj.GenerateResource.Cache
+C:\Users\hagus\Desktop\project\4.4\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.exe
+C:\Users\hagus\Desktop\project\4.4\edit4.2\edit 4, i think\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.pdb
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\Project\Vooduko-master\Now with muSIEK\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe.config
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\Project\Vooduko-master\Now with muSIEK\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\Interop.WMPLib.dll
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\Project\Vooduko-master\Now with muSIEK\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csproj.ResolveComReference.cache
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\Project\Vooduko-master\Now with muSIEK\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.exe
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\Project\Vooduko-master\Now with muSIEK\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.pdb
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\Project\Vooduko-master\Now with muSIEK\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\Project\Vooduko-master\Now with muSIEK\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.pdb
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\Project\Vooduko-master\Now with muSIEK\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csprojResolveAssemblyReference.cache
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\Project\Vooduko-master\Now with muSIEK\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.g.cs
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\Project\Vooduko-master\Now with muSIEK\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\App.g.cs
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\Project\Vooduko-master\Now with muSIEK\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.cache
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\Project\Vooduko-master\Now with muSIEK\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.lref
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\Project\Vooduko-master\Now with muSIEK\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.baml
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\Project\Vooduko-master\Now with muSIEK\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.g.resources
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\Project\Vooduko-master\Now with muSIEK\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.Properties.Resources.resources
+\\ict.ru.ac.za\DFS\UGHomes\g17h0002\Desktop\Project\Vooduko-master\Now with muSIEK\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csproj.GenerateResource.Cache
+C:\Users\hagus\Desktop\its due in 5 hours\Vooduko-master\restarts!\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe.config
+C:\Users\hagus\Desktop\its due in 5 hours\Vooduko-master\restarts!\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.exe
+C:\Users\hagus\Desktop\its due in 5 hours\Vooduko-master\restarts!\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\bin\Debug\SudukoGUI.pdb
+C:\Users\hagus\Desktop\its due in 5 hours\Vooduko-master\restarts!\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csprojResolveAssemblyReference.cache
+C:\Users\hagus\Desktop\its due in 5 hours\Vooduko-master\restarts!\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\Interop.WMPLib.dll
+C:\Users\hagus\Desktop\its due in 5 hours\Vooduko-master\restarts!\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csproj.ResolveComReference.cache
+C:\Users\hagus\Desktop\its due in 5 hours\Vooduko-master\restarts!\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.g.cs
+C:\Users\hagus\Desktop\its due in 5 hours\Vooduko-master\restarts!\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\App.g.cs
+C:\Users\hagus\Desktop\its due in 5 hours\Vooduko-master\restarts!\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.cache
+C:\Users\hagus\Desktop\its due in 5 hours\Vooduko-master\restarts!\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI_MarkupCompile.lref
+C:\Users\hagus\Desktop\its due in 5 hours\Vooduko-master\restarts!\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\MainWindow.baml
+C:\Users\hagus\Desktop\its due in 5 hours\Vooduko-master\restarts!\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.g.resources
+C:\Users\hagus\Desktop\its due in 5 hours\Vooduko-master\restarts!\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.Properties.Resources.resources
+C:\Users\hagus\Desktop\its due in 5 hours\Vooduko-master\restarts!\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.csproj.GenerateResource.Cache
+C:\Users\hagus\Desktop\its due in 5 hours\Vooduko-master\restarts!\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.exe
+C:\Users\hagus\Desktop\its due in 5 hours\Vooduko-master\restarts!\Oct10Edit2\SudukoGUIOct5\SudukoGUI\SudukoGUI\obj\Debug\SudukoGUI.pdb
